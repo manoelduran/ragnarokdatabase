@@ -1,0 +1,34 @@
+.loginContainer {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+  .signInButton{
+    color: var(--white);
+    background: var(----yellow-500);
+    width: 100%;
+    height: 56px;
+    margin-top: 50px;
+
+    border-radius: 12px;
+    cursor: pointer;
+    transition: filter 0.2s;
+
+    & + button {
+      margin-top: 2rem;
+    }
+
+  &:hover{
+    filter:brightness(0.9);
+  }
+}

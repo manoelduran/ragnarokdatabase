@@ -1,0 +1,825 @@
+{
+  "element": [
+    {
+      "id": 1,
+      "title": "Fantasma 4"
+    },
+    {
+      "id": 2,
+      "title": "Fantasma 3"
+    },
+    {
+      "id": 3,
+      "title": "Maldito 4"
+    },
+    {
+      "id": 4,
+      "title": "Maldito 1"
+    },
+    {
+      "id": 5,
+      "title": "Maldito 1"
+    },
+    {
+      "id": 6,
+      "title": "Sombrio 4"
+    },
+    {
+      "id": 7,
+      "title": "Sombrio 3"
+    },
+    {
+      "id": 8,
+      "title": "Sombrio 2"
+    },
+    {
+      "id": 9,
+      "title": "Sagrado 4"
+    },
+    {
+      "id": 10,
+      "title": "Sagrado 2"
+    },
+    {
+      "id": 11,
+      "title": "Sagrado 1"
+    },
+    {
+      "id": 12,
+      "title": "Neutro 4"
+    },
+    {
+      "id": 13,
+      "title": "Neutro 3"
+    },
+    {
+      "id": 14,
+      "title": "Água 4"
+    },
+    {
+      "id": 15,
+      "title": "Água 3"
+    },
+    {
+      "id": 16,
+      "title": "Água 2"
+    },
+    {
+      "id": 17,
+      "title": "Terra 4"
+    },
+    {
+      "id": 18,
+      "title": "Terra 3"
+    },
+    {
+      "id": 19,
+      "title": "Terra 2"
+    },
+    {
+      "id": 20,
+      "title": "Vento 4"
+    },
+    {
+      "id": 21,
+      "title": "Vento 3"
+    },
+    {
+      "id": 22,
+      "title": "Fogo 4"
+    },
+    {
+      "id": 23,
+      "title": "Fogo 3"
+    },
+    {
+      "id": 24,
+      "title": "Fogo 2"
+    },
+    {
+      "id": 25,
+      "title": "Fogo 1"
+    },
+    {
+      "id": 26,
+      "title": "Veneno 4"
+    }
+  ],
+  "mvps": [
+    {
+      "element_id": 1,
+      "name": "Belzebu",
+      "level": "147",
+      "breed": "Demônio",
+      "life": "6,805,000",
+      "spawn": "abbey03",
+      "time": "12h",
+      "weakness": "Fantasma",
+      "size": "Grande"
+    },
+    {
+      "element_id": 1,
+      "name": "Memória de Thanatos",
+      "level": "99",
+      "breed": "Demônio",
+      "life": "1,445,660",
+      "spawn": "Unknown Map",
+      "time": "no respawn",
+      "weakness": "Fantasma",
+      "size": "Grande"
+    },
+    {
+      "element_id": 1,
+      "name": "Naght Sieger",
+      "level": "99",
+      "breed": "Demônio",
+      "life": "5,000,000",
+      "spawn": "Endless Tower",
+      "time": "no respawn",
+      "weakness": "Fantasma",
+      "size": "Grande"
+    },
+    {
+      "element_id": 2,
+      "name": "Pesar Noturno",
+      "level": "139",
+      "breed": "Amorfo",
+      "life": "5,000,000",
+      "spawn": "ra_san05",
+      "time": "5h",
+      "weakness": "Fantasma",
+      "size": "Grande"
+    },
+    {
+      "element_id": 2,
+      "name": "Serpente Suprema",
+      "level": "105",
+      "breed": "Bruto",
+      "life": "1,101,000",
+      "spawn": "gon_dun03",
+      "time": "1 h, 34 min, 10 sec",
+      "weakness": "Fantasma",
+      "size": "Grande"
+    },
+    {
+      "element_id": 3,
+      "name": "Osíris",
+      "level": "68",
+      "breed": "Morto-Vivo",
+      "life": "1.175.840",
+      "spawn": "moc_pryd04",
+      "time": "1h",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 3,
+      "name": "Senhor das Trevas",
+      "level": "96",
+      "breed": "Demônio",
+      "life": "1,190,900",
+      "spawn": "gl_chyard_",
+      "time": "1h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 4,
+      "name": "Drake",
+      "level": "91",
+      "breed": "Morto-Vivo",
+      "life": "804,500",
+      "spawn": "treasure02",
+      "time": "2h",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 6,
+      "name": "Drácula",
+      "level": "75",
+      "breed": "Demônio",
+      "life": "350,000",
+      "spawn": "gef_dun01",
+      "time": "1h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 6,
+      "name": "Entweihen Crothen",
+      "level": "90",
+      "breed": "Demônio",
+      "life": "2,400,500",
+      "spawn": "Endless Tower",
+      "time": "no respawn",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 6,
+      "name": "Sombra de Nidhogg",
+      "level": "117",
+      "breed": "Dragão",
+      "life": "3,452,000",
+      "spawn": "Nidhoggur's Nest",
+      "time": "no respawn",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 7,
+      "name": "Atroce",
+      "level": "113",
+      "breed": "Bruto",
+      "life": "1,502,000",
+      "spawn": "ra_fild04",
+      "time": "5h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 7,
+      "name": "Detardeurus",
+      "level": "135",
+      "breed": "Dragão",
+      "life": "6,005,000",
+      "spawn": "abyss_03",
+      "time": "3h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 7,
+      "name": "Doppelganger",
+      "level": "77",
+      "breed": "Demônio",
+      "life": "380,000",
+      "spawn": "gef_dun02",
+      "time": "2h",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 7,
+      "name": "Faraó",
+      "level": "85",
+      "breed": "Humanoide",
+      "life": "900,000",
+      "spawn": "in_sphinx5",
+      "time": "1h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 7,
+      "name": "Guardião Morto Kades",
+      "level": "143",
+      "breed": "Amorfo",
+      "life": "2,505,000",
+      "spawn": "gld2_gef",
+      "time": "8h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 7,
+      "name": "Samurai Encarnado",
+      "level": "100",
+      "breed": "Humanoide",
+      "life": "901,000",
+      "spawn": "ama_dun03",
+      "time": "1 h, 31 min",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 7,
+      "name": "Senhor dos Mortos",
+      "level": "94",
+      "breed": "Demônio",
+      "life": "603,883",
+      "spawn": "niflheim",
+      "time": "2 h, 13 min",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 8,
+      "name": "Bispo Decadente",
+      "level": "138",
+      "breed": "Demônio",
+      "life": "5,655,000",
+      "spawn": "abbey02",
+      "time": "2h",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 8,
+      "name": "Kiel-D-01",
+      "level": "125",
+      "breed": "Amorfo",
+      "life": "2,502,000",
+      "spawn": "kh_dun02",
+      "time": "2h",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 8,
+      "name": "Leak",
+      "level": "94",
+      "breed": "Demônio",
+      "life": "1,266,000",
+      "spawn": "dew_dun01",
+      "time": "2h",
+      "weakness": "Sagrado",
+      "size": "Grande"
+    },
+    {
+      "element_id": 9,
+      "name": "Valquíria Randgris",
+      "level": "141",
+      "breed": "Anjo",
+      "life": "3.205.000",
+      "spawn": "odin_tem03",
+      "time": "8h",
+      "weakness": "Sombrio",
+      "size": "Grande"
+    },
+    {
+      "element_id": 10,
+      "name": "Vesper",
+      "level": "128",
+      "breed": "Bruto",
+      "life": "3,802,000",
+      "spawn": "jupe_core",
+      "time": "2h",
+      "weakness": "Sombrio",
+      "size": "Grande"
+    },
+    {
+      "element_id": 12,
+      "name": "Vigia do Tempo",
+      "level": "170",
+      "breed": "Demônio",
+      "life": "25,000,000",
+      "spawn": "c_tower3_",
+      "time": "2h",
+      "weakness": "n/d",
+      "size": "Grande"
+    },
+    {
+      "element_id": 13,
+      "name": "Freeoni",
+      "level": "71",
+      "breed": "Bruto",
+      "life": "300,000",
+      "spawn": "moc_fild17",
+      "time": "2h",
+      "weakness": "n/d",
+      "size": "Grande"
+    },
+    {
+      "element_id": 13,
+      "name": "RSX-0806",
+      "level": "100",
+      "breed": "Amorfo",
+      "life": "1,001,000",
+      "spawn": "ein_dun02",
+      "time": "2 h, 5 min",
+      "weakness": "n/d",
+      "size": "Grande"
+    },
+    {
+      "element_id": 13,
+      "name": "Tao Gunka",
+      "level": "110",
+      "breed": "Demônio",
+      "life": "1,252,000",
+      "spawn": "beach_dun",
+      "time": "5h",
+      "weakness": "n/d",
+      "size": "Grande"
+    },
+    {
+      "element_id": 14,
+      "name": "Hatii",
+      "level": "98",
+      "breed": "Bruto",
+      "life": "1,275,500",
+      "spawn": "xmas_fild01",
+      "time": "2h",
+      "weakness": "Vento",
+      "size": "Grande"
+    },
+    {
+      "element_id": 14,
+      "name": "Kraken",
+      "level": "124",
+      "breed": "Peixe",
+      "life": "5,602,800",
+      "spawn": "iz_dun05",
+      "time": "2h",
+      "weakness": "Vento",
+      "size": "Grande"
+    },
+    {
+      "element_id": 14,
+      "name": "Ktullanux",
+      "level": "98",
+      "breed": "Bruto",
+      "life": "2,626,000",
+      "spawn": "Unknown Map",
+      "time": "no respawn",
+      "weakness": "Vento",
+      "size": "Grande"
+    },
+    {
+      "element_id": 16,
+      "name": "Celacanto Sombrio",
+      "level": "100",
+      "breed": "Peixe",
+      "life": "2,200,000",
+      "spawn": "Culvert",
+      "time": "no respawn",
+      "weakness": "Vento",
+      "size": "Grande"
+    },
+    {
+      "element_id": 17,
+      "name": "Maya",
+      "level": "55",
+      "breed": "Inseto",
+      "life": "380,000",
+      "spawn": "anthell02",
+      "time": "2h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 17,
+      "name": "Senhor dos Orcs",
+      "level": "55",
+      "breed": "Humanoide",
+      "life": "552,000",
+      "spawn": "gef_fild10",
+      "time": "2h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 18,
+      "name": "Amon Ra",
+      "level": "69",
+      "breed": "Humanoide",
+      "life": "1,009,000",
+      "spawn": "moc_pryd06",
+      "time": "1h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 18,
+      "name": "Amon Ra do Pesadelo",
+      "level": "145",
+      "breed": "Humanoide",
+      "life": "2,515,784",
+      "spawn": "moc_prydn2",
+      "time": "1h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 18,
+      "name": "General Daehyun",
+      "level": "142",
+      "breed": "Humanoide",
+      "life": "2,500,148",
+      "spawn": "gld2_pay",
+      "time": "8h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 18,
+      "name": "Gorynych",
+      "level": "97",
+      "breed": "Bruto",
+      "life": "1,120,500",
+      "spawn": "mosk_dun03",
+      "time": "2h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 18,
+      "name": "Rainha Scaraba",
+      "level": "140",
+      "breed": "Inseto",
+      "life": "2,441,600",
+      "spawn": "dic_dun02",
+      "time": "2h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 18,
+      "name": "Rainha Scaraba Dourada",
+      "level": "140",
+      "breed": "Inseto",
+      "life": "6,441,600",
+      "spawn": "dic_dun03",
+      "time": "2h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 19,
+      "name": "General Tartaruga",
+      "level": "110",
+      "breed": "Bruto",
+      "life": "1,442,000",
+      "spawn": "tur_dun04",
+      "time": "1h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 19,
+      "name": "Orc Herói",
+      "level": "50",
+      "breed": "Humanoide",
+      "life": "362,000",
+      "spawn": "gef_fild03",
+      "time": "1h",
+      "weakness": "Fogo",
+      "size": "Grande"
+    },
+    {
+      "element_id": 20,
+      "name": "Abelha Rainha",
+      "level": "78",
+      "breed": "Inseto",
+      "life": "378,000",
+      "spawn": "mjolnir_04",
+      "time": "2h",
+      "weakness": "Terra",
+      "size": "Pequeno"
+    },
+    {
+      "element_id": 20,
+      "name": "Cavaleiro da Tempestade",
+      "level": "92",
+      "breed": "Amorfo",
+      "life": "630,500",
+      "spawn": "xmas_dun02",
+      "time": "1h",
+      "weakness": "Terra",
+      "size": "Grande"
+    },
+    {
+      "element_id": 20,
+      "name": "Gioia",
+      "level": "146",
+      "breed": "Amorfo",
+      "life": "2,507,989",
+      "spawn": "gld2_ald",
+      "time": "8h",
+      "weakness": "Terra",
+      "size": "Grande"
+    },
+    {
+      "element_id": 21,
+      "name": "Lady Branca",
+      "level": "97",
+      "breed": "Humanoide",
+      "life": "720,500",
+      "spawn": "lou_dun03",
+      "time": "1 h, 56 min, 40 sec",
+      "weakness": "Terra",
+      "size": "Grande"
+    },
+    {
+      "element_id": 21,
+      "name": "Lady Tanee",
+      "level": "80",
+      "breed": "Planta",
+      "life": "360,000",
+      "spawn": "ayo_dun02",
+      "time": "7h",
+      "weakness": "Terra",
+      "size": "Grande"
+    },
+    {
+      "element_id": 22,
+      "name": "Pyuriel Furiosa",
+      "level": "141",
+      "breed": "Humanoide",
+      "life": "2,205,000",
+      "spawn": "gld2_prt",
+      "time": "8h",
+      "weakness": "Água",
+      "size": "Médio"
+    },
+    {
+      "element_id": 23,
+      "name": "Boitatá",
+      "level": "93",
+      "breed": "Bruto",
+      "life": "1,283,990",
+      "spawn": "bra_dun02",
+      "time": "2h",
+      "weakness": "Água",
+      "size": "Grande"
+    },
+    {
+      "element_id": 23,
+      "name": "Flor do Luar",
+      "level": "79",
+      "breed": "Demônio",
+      "life": "324,000",
+      "spawn": "pay_dun04",
+      "time": "1h",
+      "weakness": "Água",
+      "size": "Médio"
+    },
+    {
+      "element_id": 24,
+      "name": "Espadachim Egnigem",
+      "level": "141",
+      "breed": "Humanoide",
+      "life": "2,910,088",
+      "spawn": "lhz_dun02",
+      "time": "2h",
+      "weakness": "Água",
+      "size": "Médio"
+    },
+    {
+      "element_id": 25,
+      "name": "Eddga",
+      "level": "65",
+      "breed": "Bruto",
+      "life": "947,500",
+      "spawn": "pay_fild10",
+      "time": "2h",
+      "weakness": "Água",
+      "size": "Médio"
+    },
+    {
+      "element_id": 22,
+      "name": "Ifrit",
+      "level": "146",
+      "breed": "Bruto",
+      "life": "6,935,000",
+      "spawn": "thor_v03",
+      "time": "11h",
+      "weakness": "Água",
+      "size": "Grande"
+    },
+    {
+      "element_id": 2,
+      "name": "Arquimaga Kathryne",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "4,500,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Fantasma",
+      "size": "Médio"
+    },
+    {
+      "element_id": 17,
+      "name": "Mestre-ferreiro Howard",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "6,750,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Fogo",
+      "size": "Médio"
+    },
+    {
+      "element_id": 20,
+      "name": "Atiradora de Elite Cecil",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "4,140,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Terra",
+      "size": "Médio"
+    },
+    {
+      "element_id": 15,
+      "name": "Mestre Chen Liu",
+      "level": "160",
+      "breed": "Demônio",
+      "life": "4,249,350",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Vento",
+      "size": "Médio"
+    },
+    {
+      "element_id": 9,
+      "name": "Paladino Randel Lawrence",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "6,870,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Sombrio",
+      "size": "Médio"
+    },
+    {
+      "element_id": 2,
+      "name": "Professora Celia Alde",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "3,847,804",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Fantasma",
+      "size": "Médio"
+    },
+    {
+      "element_id": 20,
+      "name": "Menestrel Alphoccio",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "3,894,278",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Terra",
+      "size": "Médio"
+    },
+    {
+      "element_id": 26,
+      "name": "Algoz Eremes",
+      "level": "160",
+      "breed": "Demônio",
+      "life": "4,230,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 9,
+      "name": "Sumo Sacerdotisa Margaretha",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "4,800,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Sombrio",
+      "size": "Médio"
+    },
+    {
+      "element_id": 26,
+      "name": "Desordeira Gertie Wie",
+      "level": "160",
+      "breed": "Demônio",
+      "life": "4,057,279",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Sagrado",
+      "size": "Médio"
+    },
+    {
+      "element_id": 22,
+      "name": "Criador Flamel Emul",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "4,230,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Água",
+      "size": "Médio"
+    },
+    {
+      "element_id": 22,
+      "name": "Lorde Seyren",
+      "level": "160",
+      "breed": "Demônio",
+      "life": "4,680,000",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Água",
+      "size": "Médio"
+    },
+    {
+      "element_id": 20,
+      "name": "Cigana Trentini",
+      "level": "160",
+      "breed": "Humanoide",
+      "life": "3,894,278",
+      "spawn": "Wolfchev's Lab",
+      "time": "no respawn",
+      "weakness": "Terra",
+      "size": "Médio"
+    }
+  ]
+}
