@@ -2,106 +2,127 @@
   "element": [
     {
       "id": 1,
+      "name": "Fantasma 4",
       "title": "Fantasma 4"
     },
     {
       "id": 2,
+      "name": "Fantasma 3",
       "title": "Fantasma 3"
     },
     {
       "id": 3,
+      "name": "Maldito 4",
       "title": "Maldito 4"
     },
     {
       "id": 4,
+      "name": "Maldito 1",
       "title": "Maldito 1"
     },
     {
       "id": 5,
-      "title": "Maldito 1"
-    },
-    {
-      "id": 6,
+      "name": "Sombrio 4",
       "title": "Sombrio 4"
     },
     {
-      "id": 7,
+      "id": 6,
+      "name": "Sombrio 3",
       "title": "Sombrio 3"
     },
     {
-      "id": 8,
+      "id": 7,
+      "name": "Sombrio 2",
       "title": "Sombrio 2"
     },
     {
-      "id": 9,
+      "id": 8,
+      "name": "Sagrado 4",
       "title": "Sagrado 4"
     },
     {
-      "id": 10,
+      "id": 9,
+      "name": "Sagrado 2",
       "title": "Sagrado 2"
     },
     {
-      "id": 11,
+      "id": 10,
+      "name": "Sagrado 1",
       "title": "Sagrado 1"
     },
     {
-      "id": 12,
+      "id": 11,
+      "name": "Neutro 4",
       "title": "Neutro 4"
     },
     {
-      "id": 13,
+      "id": 12,
+      "name": "Neutro 3",
       "title": "Neutro 3"
     },
     {
-      "id": 14,
+      "id": 13,
+      "name": "Água 4",
       "title": "Água 4"
     },
     {
-      "id": 15,
+      "id": 14,
+      "name": "Água 3",
       "title": "Água 3"
     },
     {
-      "id": 16,
+      "id": 15,
+      "name": "Água 2",
       "title": "Água 2"
     },
     {
-      "id": 17,
+      "id": 16,
+      "name": "Terra 4",
       "title": "Terra 4"
     },
     {
-      "id": 18,
+      "id": 17,
+      "name": "Terra 3",
       "title": "Terra 3"
     },
     {
-      "id": 19,
+      "id": 18,
+      "name": "Terra 2",
       "title": "Terra 2"
     },
     {
-      "id": 20,
+      "id": 19,
+      "name": "Vento 4",
       "title": "Vento 4"
     },
     {
-      "id": 21,
+      "id": 20,
+      "name": "Vento 3",
       "title": "Vento 3"
     },
     {
-      "id": 22,
+      "id": 21,
+      "name": "Fogo 4",
       "title": "Fogo 4"
     },
     {
-      "id": 23,
+      "id": 22,
+      "name": "Fogo 3",
       "title": "Fogo 3"
     },
     {
-      "id": 24,
+      "id": 23,
+      "name": "Fogo 2",
       "title": "Fogo 2"
     },
     {
-      "id": 25,
+      "id": 24,
+      "name": "Fogo 1",
       "title": "Fogo 1"
     },
     {
-      "id": 26,
+      "id": 25,
+      "name": "Veneno 4",
       "title": "Veneno 4"
     }
   ],

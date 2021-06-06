@@ -10,16 +10,16 @@ export function Header() {
         <img src="/logo.svg" alt="Logo"></img>
         <nav>
           <Link href="/home">
-          <a>Home</a>
+            <a>Home</a>
           </Link>
           <Link href="/mvp">
             <a>Mvp</a>
-            </Link>
-            <Link href="/timer">
+          </Link>
+          <Link href="/timer">
             <a>Timer</a>
-            </Link>
+          </Link>
         </nav>
-        <SignInButton/>
+        <SignInButton />
       </div>
     </header>
   );
