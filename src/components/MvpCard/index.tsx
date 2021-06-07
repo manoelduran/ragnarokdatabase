@@ -1,5 +1,4 @@
 import React from 'react';
-import { Clock, Star } from 'react-feather';
 import styles from '../MvpCard/styles.module.scss';
 
 export default function MvpCard({
@@ -8,14 +7,13 @@ export default function MvpCard({
   spawn,
   time }: MovieCardProps) {
   return (
-    <div className="movie-card">
+    <div className={styles.mvpCard}>
       <img
         src="/logo.svg"
         alt={name}
       />
-
       <div>
-        <div className="movie-info">
+        <div className={styles.mvpInfo}>
           <span>{name}</span>
           <span>{life}</span>
           <span>{spawn}</span>
@@ -23,6 +21,5 @@ export default function MvpCard({
         </div>
       </div>
     </div>
-    </div >
   );
 }

@@ -1,15 +1,14 @@
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
 import MvpCard from '../../components/MvpCard';
+import { SideBar } from '../../components/SideBar';
 import { api } from '../../services/api';
 import styles from '../Mvp/mvp.module.scss';
 
-interface IContentProps {
-  selectedElementId: number;
-}
-export default function Mvp({ selectedElementId }: IContentProps) {
+export default function Mvp() {
   const [mvps, setMvps] = useState<MvpProps[]>([]);
   const [selectedElement, setSelectedElement] = useState<ElementResponseProps>({} as ElementResponseProps);
+  const [ selectedElementId, setSelectedElementId] = useState(1);
   
   useEffect(() => {
     api.get<MvpProps[]>(`mvps/?element_id=${selectedElementId}`).then(response => {
@@ -21,9 +20,13 @@ export default function Mvp({ selectedElementId }: IContentProps) {
   })
 }, [selectedElementId]);
 
+  function handleClickButton(id: number) {
+    setSelectedElementId(id);
+  }
 
   return (
-    <>
+    <div className={styles.pageContainer}>
+      <SideBar selectedElementId={selectedElementId} handleClickButton={handleClickButton} />
       <Head>
         <title>Mvp | MvpTimer</title>
       </Head>
@@ -47,7 +50,7 @@ export default function Mvp({ selectedElementId }: IContentProps) {
           </div>
         </main>
       </div>
-    </>
+    </div>
   );
 }
 

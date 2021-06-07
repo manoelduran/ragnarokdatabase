@@ -1,4 +1,4 @@
-.movie-card {
+.mvpCard {
   position: relative;
 
   img {
@@ -18,7 +18,7 @@
 
     background: rgba(31, 34, 41, 0.5);
 
-    .movie-info {
+    .mvpInfo {
       max-width: 12.31rem;
       width: 100%;
       
@@ -32,27 +32,6 @@
   
         margin-top: auto;
         margin-bottom: 0.5rem;
-      }
-  
-      .meta {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-  
-        margin-bottom: 1rem;
-  
-        div {
-          display: flex;
-          align-items: center;
-  
-          font-weight: 600;
-          color: var(--gray);
-  
-          svg {
-            color: #FAE800;
-            margin-right: 0.5rem;
-          }
-        }
       }
     }
   }
