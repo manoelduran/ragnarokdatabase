@@ -12,7 +12,7 @@ export function SideBar({ selectedElementId, handleClickButton }: ISideBarProps)
   const [element, setElement] = useState<ElementResponseProps[]>([]);
 
   useEffect(() => {
-    api.get<ElementResponseProps[]>('element').then(response => {
+    api.get<ElementResponseProps[]>('elements').then(response => {
       setElement(response.data);
     });
   }, []);

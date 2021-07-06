@@ -1,23 +1,20 @@
 import React from 'react';
 import styles from '../MvpCard/styles.module.scss';
 
-export default function MvpCard({
-  name,
-  life,
-  spawn,
-  time }: MovieCardProps) {
+
+export default function MvpCard(props: MovieCardProps) {
   return (
     <div className={styles.mvpCard}>
       <img
-        src="/logo.svg"
-        alt={name}
+        src={props.image}
+        alt={props.name}
       />
       <div>
         <div className={styles.mvpInfo}>
-          <span>{name}</span>
-          <span>{life}</span>
-          <span>{spawn}</span>
-          <span>{time}</span>
+          <span>{props.name}</span>
+          <span>{props.life}</span>
+          <span>{props.spawn}</span>
+          <span>{props.time}</span>
         </div>
       </div>
     </div>

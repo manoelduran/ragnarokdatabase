@@ -13,7 +13,7 @@ export default function Home() {
           <h1>Caught all <span>MVP</span> you want with us! </h1>
           <p>Here at MVPTimer you can choose a mvp and add a timer for when it is reborn. Find out more about mvp's with our database! </p>
         </section>
-        <img src="/devil.svg" alt="All Mvp" />
+        <img src="/mvps.jpg" alt="All Mvp" />
       </main>
     </>
   );

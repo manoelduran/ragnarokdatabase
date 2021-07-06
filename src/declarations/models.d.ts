@@ -1,28 +1,31 @@
+declare module '*.svg'
+
 interface ElementResponseProps {
   id: number;
-  name: 'Fantasma 4' | 'Fantasma 3' | 'Maldito 4' | 'Maldito 1' | 'Sombrio 4' | 'Sombrio 3' | 'Sombrio 2' | 'Sagrado 4' | 'Sagrado 2' | 'Sagrado 1' | 'Neutro 4' | 'Neutro 3' | 'Água 4' | 'Água 3' | 'Água 2' | 'Terra 4' | 'Terra 3' | 'Terra 2' | 'Vento 4' | 'Vento 3' | 'Fogo 4' | 'Fogo 3' | 'Fogo 2' | 'Fogo 1' | 'Veneno 4';
+  name: 'fantasma 4' | 'fantasma 3' | 'maldito 4' | 'maldito 1' | 'sombrio 4' | 'sombrio 3' | 'sombrio 2' | 'sagrado 4' | 'sagrado 2' | 'sagrado 1' | 'neutro 4' | 'neutro 3' | 'agua 4' | 'agua 3' | 'agua 2' | 'terra 4' | 'terra 3' | 'terra 2' | 'vento 4' | 'vento 3' | 'fogo 4' | 'fogo 3' | 'fogo 2' | 'fogo 1' | 'veneno 4';
   title: string;
 }
 
 interface MvpProps {
-  element_id: number;
-  name: string;
-  level: number;
-  breed: string;
-  life: number;
-  spawn: string;
-  time: string;
-  weakness: string;
-  size: string;
+  Element_id: number;
+  Name: string;
+  Level: string;
+  Breed: string;
+  Life: string;
+  Spawn: string;
+  Time: string;
+  Weakness: string;
+  Size: string;
+  Image: string;
 }
 
 interface MovieCardProps {
   name: string;
-  life: number;
+  life: string;
   spawn: string;
   time: string;
+  image: string;
 }
-
 
 interface ISideBarProps {
   selectedElementId: number;
@@ -31,6 +34,6 @@ interface ISideBarProps {
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   title: string;
-  iconName: 'Fantasma 4' | 'Fantasma 3' | 'Maldito 4' | 'Maldito 1' | 'Sombrio 4' | 'Sombrio 3' | 'Sombrio 2' | 'Sagrado 4' | 'Sagrado 2' | 'Sagrado 1' | 'Neutro 4' | 'Neutro 3' | 'Água 4' | 'Água 3' | 'Água 2' | 'Terra 4' | 'Terra 3' | 'Terra 2' | 'Vento 4' | 'Vento 3' | 'Fogo 4' | 'Fogo 3' | 'Fogo 2' | 'Fogo 1' | 'Veneno 4';
+  iconName: 'fantasma 4' | 'fantasma 3' | 'maldito 4' | 'maldito 1' | 'sombrio 4' | 'sombrio 3' | 'sombrio 2' | 'sagrado 4' | 'sagrado 2' | 'sagrado 1' | 'neutro 4' | 'neutro 3' | 'agua 4' | 'agua 3' | 'agua 2' | 'terra 4' | 'terra 3' | 'terra 2' | 'vento 4' | 'vento 3' | 'fogo 4' | 'fogo 3' | 'fogo 2' | 'fogo 1' | 'veneno 4';
   selected: boolean;
 }

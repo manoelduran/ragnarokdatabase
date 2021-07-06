@@ -1,18 +1,19 @@
 import styles from '../MvpButton/styles.module.scss';
 import React from 'react';
 import { ButtonHTMLAttributes } from 'react';
+import { Icon } from '../Icon/Incon';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   title: string;
-  iconName: 'Fantasma 4' | 'Fantasma 3' | 'Maldito 4' | 'Maldito 1' | 'Sombrio 4' | 'Sombrio 3' | 'Sombrio 2' | 'Sagrado 4' | 'Sagrado 2' | 'Sagrado 1' | 'Neutro 4' | 'Neutro 3' | 'Água 4' | 'Água 3' | 'Água 2' | 'Terra 4' | 'Terra 3' | 'Terra 2' | 'Vento 4' | 'Vento 3' | 'Fogo 4' | 'Fogo 3' | 'Fogo 2' | 'Fogo 1' | 'Veneno 4';
+  iconName: 'fantasma 4' | 'fantasma 3' | 'maldito 4' | 'maldito 1' | 'sombrio 4' | 'sombrio 3' | 'sombrio 2' | 'sagrado 4' | 'sagrado 2' | 'sagrado 1' | 'neutro 4' | 'neutro 3' | 'agua 4' | 'agua 3' | 'agua 2' | 'terra 4' | 'terra 3' | 'terra 2' | 'vento 4' | 'vento 3' | 'fogo 4' | 'fogo 3' | 'fogo 2' | 'fogo 1' | 'veneno 4';
   selected: boolean;
 }
 
-export function Button({ title, selected, ...rest }: ButtonProps) {
+export function Button({ iconName, title, selected, ...rest  }: ButtonProps) {
   return (
     <div  className={styles.mvpButton}>
-    <button type="button" {...(selected && { className: 'selected' })} {...rest}>
-    color={selected ? '#FAE800' : '#FBFBFB'}
+    <button type="button"  {...(selected && { className: 'selected' })} {...rest} >
+    <Icon name={iconName} color={selected ? '#FAE800' : '#FBFBFB'} />
       {title}
     </button>
     </div>
