@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { api } from '../../services/api';
 import styles from '../ContentMvp/styles.module.scss';
 import MvpCard from '../MvpCard';
+import Link from 'next/link';
 
 interface IContentProps {
   selectedElementId: number;
@@ -32,14 +33,17 @@ export function ContentMvp({ selectedElementId }: IContentProps) {
       <main className={styles.mvpListContainer}>
         <div className={styles.mvpList}>
           {mvps.map((mvp) => (
-            <MvpCard
-              key={`${mvp.Element_id}-${mvp.Name}`}
-              name={mvp.Name}
-              life={mvp.Life}
-              spawn={mvp.Spawn}
-              time={mvp.Time}
-              image={mvp.Image}
-            />
+            <Link key={mvp.Name} href={`/Mvps/${mvp.Name}`}>
+              <a>
+                <MvpCard
+                  name={mvp.Name}
+                  life={mvp.Life}
+                  spawn={mvp.Spawn}
+                  time={mvp.Time}
+                  image={mvp.Image}
+                />
+              </a>
+            </Link>
           ))}
         </div>
       </main>

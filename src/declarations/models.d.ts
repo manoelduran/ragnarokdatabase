@@ -17,6 +17,7 @@ interface MvpProps {
   Weakness: string;
   Size: string;
   Image: string;
+  Gif: string;
 }
 
 interface MovieCardProps {

@@ -12,11 +12,8 @@ export function Header() {
           <Link href="/home">
             <a>Home</a>
           </Link>
-          <Link href="/mvp">
-            <a>Mvp</a>
-          </Link>
-          <Link href="/timer">
-            <a>Timer</a>
+          <Link href="/Mvps">
+            <a>Mvps</a>
           </Link>
         </nav>
         <SignInButton />

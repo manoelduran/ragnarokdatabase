@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | MvpTimer</title>
+        <title>Home | Mvp Database</title>
       </Head>
       <main className={styles.Container}>
         <section className={styles.Content}>
