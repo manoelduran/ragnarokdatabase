@@ -1,32 +1,38 @@
+import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
-import { api } from '../../services/api';
 
-interface MvpProps {
-  mvp: {
-    Element_id: number;
-    Name: string;
-    Level: string;
-    Breed: string;
-    Life: string;
-    Spawn: string;
-    Time: string;
-    Weakness: string;
-    Size: string;
-    Image: string;
-    Gif: string;
+
+export default function Mvp({ mvp }) {
+  console.log(mvp);
+  return (
+    <div>
+      <Head>
+        <title>{mvp.Name} | Mvp Database</title>
+      </Head>
+      <img src={mvp.Gif}></img>
+    </div>
+  );
+}
+
+export async function getStaticPaths() {
+  const res = await fetch('http://localhost:3333/mvps/')
+  const mvps = await res.json()
+
+  return {
+    paths: mvps.map((mvp) => ({
+      params: { Name: mvp.Name }
+    })),
+    fallback: false
   }
 }
-export default function Mvp({ mvp }: MvpProps) {
-  const [selectedMvp, setSelectedMvp] = useState<MvpProps>()
-  useEffect(() => {
-    api.get<MvpProps>(`mvps/?Name=${selectedMvp}`).then(response => {
-      console.log(response.data);
-      setSelectedMvp(response.data);
-    });
-  }, [])
-  
-  return (
-   <h1>hello worl</h1>
-  );
+
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const res = await fetch(`http://localhost:3333/mvps?Name=${params.Name}`)
+  const mvps = await res.json()
+  const mvp = mvps[0];
+
+  return { props: { mvp } }
 }
 
